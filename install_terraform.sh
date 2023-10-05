@@ -6,6 +6,9 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 
 sudo apt update && sudo apt install terraform
 
+#to confirm terraform has been installed, check the version 
+terraform -v
+
 
 #on Mac, run the following commands on your terminal line by line:
 
@@ -13,6 +16,5 @@ brew tap hashicorp/tap
 
 brew install hashicorp/tap/terraform
 
-
-#to confirm terraform has been installed, run 
+#to confirm terraform has been installed, check the version 
 terraform -v
